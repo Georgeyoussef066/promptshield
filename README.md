@@ -4,32 +4,34 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![PyPI](https://img.shields.io/pypi/v/promptshield.svg)](https://pypi.org/project/promptshield/)
 
 ---
 
 ## What is PromptShield?
 
-PromptShield is a lightweight, production-ready security framework that protects AI applications from:
+PromptShield is a lightweight security framework that protects AI applications from:
 
 - 🚫 Prompt injection attacks
 - 🔓 Jailbreak attempts  
 - 📤 System prompt extraction
 - 🔍 PII leakage
-- 🎭 50+ other attack types
+- 🎭 Dozens of attack variants
 
 **Key Features:**
-- ⚡ **Ultra-fast**: <0.1ms latency
+- ⚡ **Fast**: Pattern matching in ~0.1ms (semantic mode: ~20-30ms)
 - 🔌 **Framework-agnostic**: Works with any LLM (OpenAI, Anthropic, local models)
 - 🎯 **Simple**: 3 lines of code to integrate
-- 🛡️ **Comprehensive**: 51 attack patterns + PII detection
+- 🛡️ **Comprehensive**: Multiple attack categories + semantic generalization
 
 ---
 
 ## Installation
 
 ```bash
-pip install promptshield
+# Install from source (PyPI package coming soon)
+git clone https://github.com/Neural-alchemy/promptshield
+cd promptshield
+pip install -e .
 ```
 
 ---
@@ -146,16 +148,19 @@ Choose the right level for your needs:
 
 | Level | Protection | Latency | Use Case |
 |-------|-----------|---------|----------|
-| L1 | Basic | <0.01ms | Demos, low-risk |
-| L3 | Standard | <0.02ms | Internal tools |
-| **L5** | **Production** | **<0.05ms** | **Recommended** ⭐ |
-| L7 | Maximum | <0.1ms | High-security |
+| **L3** | **Pattern-based** | **~0.1ms** | Fast, pattern matching only |
+| **L5** | **Production** | **~0.1-30ms** | **Recommended** ⭐ Pattern + semantic (if enabled) |
 
 ```python
-Shield(level=1)  # Basic
-Shield(level=5)  # Production (recommended)
-Shield(level=7)  # Maximum security
+Shield(level=3)  # Fast pattern-only protection
+Shield(level=5)  # Production (pattern + optional semantic)
 ```
+
+**Performance breakdown:**
+- Pattern matching: ~0.1ms
+- Semantic matching (optional): +20-30ms
+- PII detection: +1-5ms
+- Output sanitization: ~1-2ms
 
 ---
 
@@ -176,14 +181,18 @@ PromptShield detects and blocks:
 
 ## Performance
 
-```
-Latency:      <0.1ms per check
-Throughput:   60,000+ requests/second
-Memory:       <10MB
-CPU Impact:   Minimal
-```
+**Pattern-only mode (L3):**
+- Latency: ~0.1ms per check
+- Throughput: 10,000+ req/s
+- Memory: <5MB
 
-PromptShield is faster than network jitter - perfect for production.
+**Production mode (L5):**
+- Pattern matching: ~0.1ms
+- Semantic (if enabled): +20-30ms
+- Total: ~0.1-30ms depending on features
+- Memory: <10MB (or +500MB if semantic models loaded)
+
+**Honest benchmarks:** Pattern matching is extremely fast. Semantic matching adds latency but improves detection. Choose based on your latency requirements.
 
 ---
 

